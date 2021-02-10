@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+
+    <style>
+        caption{
+            padding: 2rem;
+        }
+        table{
+            border: 2px solid black;
+            text-align: center;
+        }
+        thead{
+            border: 2px solid black;
+        }
+        th,td{
+            border:2px solid black;
+        }
+        thead,tr,th{
+            background-color: burlywood;
+        }
+    </style>
+
+    <table>
+        <caption>HORARIO DE CLASES</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>L</th>
+                <th>M</th>
+                <th>X</th>
+                <th>J</th>
+                <th>V</th>
+            </tr>
+        </thead>
+        <colgroup>
+            <col>
+            <col>
+        </colgroup>
+
+        <tbody>
+            <tr>
+                <td>8:30 - 9:30</td>
+                <td>Metamatica</td>
+                <td>Metamatica</td>
+                <td>Sociales</td>
+                <td>Metamatica</td>
+                <td>Metamatica</td>
+            </tr>
+            <tr>
+                <td>9:30 - 10:25</td>
+                <td>Lengua</td>
+                <td>Lengua</td>
+                <td>Matematicas</td>
+                <td>Ciencias</td>
+                <td>Lengua</td>
+            </tr>
+            <tr>
+                <td>10:25 - 11:20</td>
+                <td>Educación Fisica</td>
+                <td>Ciencias</td>
+                <td>Lengua</td>
+                <td>Lengua</td>
+                <td>Educación Fisica</td>
+            </tr>
+            <tr>
+                <td>11:20 - 11:45</td>
+                <td colspan="5">RECREO</td>
+            </tr>
+            <tr>
+                <td>11:45 - 12:40</td>
+                <td>Ingles</td>
+                <td>Sociales</td>
+                <td>Ingles</td>
+                <td>Tutoria</td>
+                <td>Ingles</td>
+            </tr>
+           <tr>
+               <td>12:40 - 13:45</td>
+               <td rowspan="2">Tecnologia</td>
+               <td>Educación Fisica</td>
+               <td>Plastica</td>
+               <td>Religion</td>
+               <td rowspan="2">Tecnologia</td>
+           </tr>
+           <tr>
+               <td>13:45 - 14:30</td>
+               <td>Frances</td>
+               <td>Tecnologia</td>
+               <td>Frances</td>
+           </tr>
+           <tfoot>
+               <tr>
+                   <td colspan="5">Total de Asignaturas</td>
+                   <td>12</td>
+               </tr>
+           </tfoot>
+
+         
+        </tbody>
+
+
+
+    </table>
+
+    
+</body>
+</html>
